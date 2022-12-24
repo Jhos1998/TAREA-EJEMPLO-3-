@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: rgb(182, 186, 247);
+    padding: 10px;
+    /* Margen Interior */
+    text-align: right;
+    /* Alineacion del texto */
+    border: 3px solid rgb(0, 0, 0);
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    background: linear-gradient(to left, #fc1d1d, #fffcfc, #d66509);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+
+    width: 90%;
+    padding: 1%;
+    margin-left: 4%;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* .enlaces li {
+    list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to left, #000000, #FFFFFF, #999999);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}   
+
+
+/* Psudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(215, 218, 216);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.contenido {        
+    margin-top: 15px;
+    /* borde de el elemento: grosor tipo color */
+    border: 1px solid black;
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */
+    border-radius: 25px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;
+    /* Ancho */
+    width: 90%;
+    /* Alto */
+    height: 520px;
+    /* Margen exterior  */
+    margin-left: 4%;
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
+    color: rgb(0, 0, 0);
+    /* Fondo con degradado de colores */
+    background: linear-gradient(-90deg, #090133, #1e00a1,transparent);
+    /*background: linear-gradient(to left, #000000, #FFFFFF, #999999); */
+    /*background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);*/
+    box-shadow: 5px 5px 15px black;
+    padding: 1%;
+}
+
+.inombre {
+    border:1px solid rgb(0, 0, 0);
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.inombre:hover {
+    border: 2px solid rgb(16, 2, 66);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inombre:hover {
+    border: 2px solid rgb(16, 2, 66);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.contactoE{
+    justify-content: center;
+    font-size: 1.75rem;
+    color: #1e00a1;
+}
+
+.contactoclases{
+    display: flex;
+    /*de que manera se organizara*/
+    flex-direction: column;
+    /*Crear espacio*/ /*rem tipo de medida mas usada en paginas html*/
+    padding-top: 0.5rem;
+    padding: 0.4rem 0.4rem;
+   
+}
+
+.form__label{
+    display: block;
+    color: #bb0909;
+    margin: 0 0 0.7rem;
+    font-size: 1.2rem;
+}
+
+.mensaje{
+    border:none;
+    border-radius: 5px;
+    /*lado por lado*/
+    padding: 0.4rem 0.4rem;
+}
+
+
+

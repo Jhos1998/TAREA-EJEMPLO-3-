@@ -1,0 +1,90 @@
+body{
+
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    line-height: 1;
+}
+ol,ul,li{
+    /*borra puntitos*/
+    list-style:none ;
+}
+
+.enlaces{
+    text-decoration: none;
+    display: flex; 
+    /* gap dar espacio solo si usas display flex*/
+    gap: 1.5rem;
+
+}
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to left, #000000, #FFFFFF, #999999);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+} 
+.contenido{
+    padding: 2rem 7rem;
+    background: #323031;
+}
+
+
+.inombre{
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 0 0.7rem;
+    padding: 0.4rem 0.4rem; 
+    width: 50%;
+    
+}
+.contactoE{
+    text-align: center;
+    font-size: 1.75rem;
+    color: #91fffa;
+    font-weight: bold;
+}
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    background: linear-gradient(to left, #fc1d1d, #fffcfc, #d66509);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+
+    width: 90%;
+    padding: 1%;
+    margin-left: 4%;
+}
+.contactoclases{
+     /*organizar elementos */
+    display: flex;
+    /*de que manera se organizara*/
+    flex-direction: column;
+    /*Crear espacio*/ /*rem tipo de medida mas usada en paginas html*/
+    padding-top: 0.5rem;
+    padding: 0.4rem 0.4rem;
+   
+}
+
+.form__label{
+    display: block;
+    color: #02f8f8;
+    margin: 0 0 0.7rem;
+    font-size: 1.2rem;
+}
+
+.mensaje{
+    border:none;
+    border-radius: 5px;
+    /*lado por lado*/
+    padding: 0.4rem 0.4rem;
+}
+
